@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather-APP</title>
+    <meta name="theme-color" content="#00feba">
+    <title>MyWeatherAPP</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="./assets/weatherlogo.png">
 </head>
 <body>
     <div class="card">
         <div class="search">
             <input type="text" placeholder="enter city name" spellcheck="false">
             <button><img src="assets/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
         </div>
             <div class="weather">
             <img src="assets/rainy.png" class="weather-icon">
@@ -38,6 +44,18 @@
         
 
     </div>
+<!--<script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('./serviceworker.js')
+            .then((registration) => {
+              console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch((error) => {
+              console.error('Service Worker registration failed:', error);
+            });
+        }
+      </script>-->
     <script src="script.js"></script>
+   <!-- <script src="serviceworker.js"></script>-->
 </body>
 </html>

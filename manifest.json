@@ -1,0 +1,54 @@
+{
+    "name": "MyWeatherApp",
+    "short_name": "MyWeatherApp",
+    "description": "Give information about the current weather conditions with MyWeatherApp.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#5b548a",
+    "theme_color": "#00feba",
+    "orientation": "portrait",
+    "scope": "/",
+    "icons": [
+      {
+        "src": "./assets/clear.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/clouds.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/drizzle.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/humidity.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/rainy.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/search.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/snow.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "./assets/windy.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+    ]
+  }
+  
