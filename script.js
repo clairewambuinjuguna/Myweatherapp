@@ -22,17 +22,17 @@ async function checkWeather(city) {
 
     const data = await response.json();
 
-    if (data.weather[0].main == "Clouds") {
+    if (data.weather[0].main === "Clouds") {
         weatherIcon.src = "./assets/clouds.png";
-    } else if (data.weather[0].main == "Drizzle") {
+    } else if (data.weather[0].main === "Drizzle") {
         weatherIcon.src = "./assets/drizzle.png";
-    } else if (data.weather[0].main == "Clear") {
+    } else if (data.weather[0].main === "Clear") {
         weatherIcon.src = "./assets/clear.png";
-    } else if (data.weather[0].main == "Rain") {
+    } else if (data.weather[0].main === "Rain") {
         weatherIcon.src = "./assets/rainy.png";
-    } else if (data.weather[0].main == "Mist") {
+    } else if (data.weather[0].main === "Mist") {
         weatherIcon.src = "./assets/mist.png";
-    } else if (data.weather[0].main == "Snow") {
+    } else if (data.weather[0].main === "Snow") {
         weatherIcon.src = "./assets/snow.png";
     }
 
